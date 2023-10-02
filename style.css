@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Playfair+Display&family=Rochester&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+border: 1px solid white;
+padding: 15px;
+margin: 5px;
+text-align: center;
+background-color:	#C7B5C9;
+}
+#links{
+display: inline;
+}
+#navbar #links a{
+text-decoration: none;
+padding: 5px;
+margin: 5px;
+border: 1px solid white;
+border-radius: 5px;
+opacity: .70;
+transition: 0.2s;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600px;
+}
+#navbar #links a:hover{
+opacity:1;
+transition: 0.4s;
+font-size: larger;
+padding: 10px;
+margin: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600px;
+}
+#tt{background-image: linear-gradient(to right, #fe2858, #2af0ea); color: white;}
+#fb{background-color: #4267B2; color: white;}
+#gh{background-color: #333; color: white;}
+#ig{background-image: linear-gradient(to bottom right, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75); color: white;}
+#twt{background-color: #00ACEE; color: white;}
+.rounded{border-radius: 5px;}
+
+.banner{
+    background-image: url('tumblr_45ffd95bf970dead5df22a9ce30cb9ba_b069978d_1280.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #756675;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+.banner span{
+    color: #39165B;
+    font-weight: bolder;
+}
+
+.banner p{
+    margin-bottom: 20px;
+}
+
+.banner a{
+    padding: 10px;
+    text-decoration: none;
+    color:#39165B;
+    background-color: #C0AFCE;
+    font-family: 'Rochester', cursive;
+}
